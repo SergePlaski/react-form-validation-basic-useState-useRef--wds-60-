@@ -1,0 +1,52 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+dist-ssr
+**/dist
+**/dist-ssr
+**/dist-server
+**/out-tsc
+**/.local
+
+# dependencies
+**/node_modules
+
+# keys and settings
+**/*key.json
+**/.env
+**/.env.local
+**/config.json
+
+# tests
+**/e2e/*.js
+**/e2e/*.map
+**/coverage
+
+# IDEs and editors
+.idea
+.project
+.classpath
+*.launch
+.settings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# lock files
+**/package-lock.json
+**/yarn.lock
+connect.lock
+
+# misc and logs
+.cache
+.parcel-cache
+.firebase
+.sass-cache
+/typings
+**/*.log
+**/*.yaml
+**/tmp
+**/info
+**/info.txt
